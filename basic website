@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Basic Website</title>
+</head>
+<body>
+	<header>
+		<h1>Welcome to my website!</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<h2>About Me</h2>
+		<p>Hi, I'm John Doe. I'm a web developer and designer, and I love creating beautiful and functional websites.</p>
+		<h2>Contact Me</h2>
+		<form action="#" method="post">
+			<label for="name">Name:</label>
+			<input type="text" name="name" id="name"><br>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email"><br>
+			<label for="message">Message:</label><br>
+			<textarea name="message" id="message"></textarea><br>
+			<input type="submit" value="Submit">
+		</form>
+	</main>
+	<footer>
+		<p>&copy; 2023 John Doe. All rights reserved.</p>
+	</footer>
+</body>
+</html>
